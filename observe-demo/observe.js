@@ -51,12 +51,6 @@ function observer(target){
         return target
     }
 
-    // 污染全局的 Array 原型
-    // Array.prototype.push = function(){
-    //     updateView()
-    //     ...
-    // }
-
     if(Array.isArray(target)){
         target.__proto__ = arrProto
     }
@@ -74,7 +68,7 @@ const data = {
     // info:{
     //     address:'北京' // 需要深度监听
     // },
-    // nums:[10,20,30]
+    nums:[10,20,30]
 }
 
 // 监听数据

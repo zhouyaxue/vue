@@ -1,0 +1,14 @@
+{
+  "name": "vue-template-compiler-demo",
+  "version": "1.0.0",
+  "description": "初始化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhouyaxue",
+  "license": "ISC",
+  "dependencies": {
+    "vue-template-compiler": "^2.6.12"
+  }
+}
